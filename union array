@@ -1,0 +1,13 @@
+class solution :
+def sliding wind(self,n,m,a,b)
+a=set(a)
+b=set(b)
+c=a.union(b)
+return len(c)
+
+s=set()
+for i in range(0,n)
+s.add(a[i])
+for i in range(0,m)
+s.add(b[i])
+return len(s)
